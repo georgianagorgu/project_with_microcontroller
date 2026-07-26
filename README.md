@@ -2,29 +2,29 @@
 
 ## Overview
 
-This project presents the design and development of a custom microcontroller-based embedded system. It includes the complete hardware design, from the electronic schematic to the PCB layout and 3D visualization, created using KiCad.
+This project presents the design and implementation of a custom microcontroller-based embedded system. The project includes the complete hardware development process, from electronic schematic design to PCB layout and 3D visualization, created using KiCad.
 
 ## Features
 
 - Custom PCB design
 - LCD display interface
-- Temperature sensor
-- Buzzer for audio alerts
+- Temperature sensor integration
+- Buzzer for acoustic alerts
 - Microcontroller-based embedded system
 
-## Hardware
+## Hardware Components
 
 - Microcontroller
-- LCD display
-- Temperature sensor
+- LCD Display
+- Temperature Sensor
 - Buzzer
-- Custom PCB
+- Custom Printed Circuit Board (PCB)
 
-## Software & Tools
+## Development Tools
 
 - KiCad
 - Embedded C
-- Git
+- Git & GitHub
 
 ## Project Images
 
@@ -40,13 +40,33 @@ This project presents the design and development of a custom microcontroller-bas
 
 ![3D PCB View](3D_viewer_image.png)
 
-## Repository Contents
+## Project Structure
 
-- Hardware design files
-- PCB layout
-- Firmware source code
-- Project documentation
+```
+MicrocontrollerProject-main/
+│
+├── Firmware/
+├── Hardware/
+├── Documentation/
+├── PCB_image.png
+├── Schematic_image.png
+├── 3D_viewer_image.png
+└── README.md
+```
+
+## Learning Outcomes
+
+During this project I gained practical experience in:
+
+- Electronic schematic design
+- PCB layout design
+- Embedded hardware development
+- Hardware verification
+- Version control using Git and GitHub
 
 ## Author
 
 **Georgiana Gorgu**
+
+Faculty of Electronics, Telecommunications and Information Technology  
+"Gheorghe Asachi" Technical University of Iași
